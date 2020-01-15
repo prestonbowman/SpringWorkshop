@@ -71,6 +71,11 @@ Next, you need to load the packages in your working environment. We do this with
 the `library` function. Note that you only need to **install** packages once, but
 you need to **load** them each time you relaunch RStudio.
 
+```{r first-code-chunk}
+4+12
+```
+
+
 ```{r load-packages, message = FALSE}
 library(dplyr)
 library(ggplot2)
